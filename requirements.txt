@@ -1,0 +1,7 @@
+fastmcp
+mcp
+python-dotenv
+requests
+ai-core-sdk
+generative-ai-hub-sdk
+langchain-core
