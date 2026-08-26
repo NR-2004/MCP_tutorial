@@ -1,0 +1,455 @@
+[
+  {
+    "id": "chatcmpl-EH2Ei7ZRvFDV3kh0qVZNNyeei4exJ",
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": null,
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [
+            {
+              "id": "call_Ti2jgZB6SzYTPAAKqS2P3LwA",
+              "function": {
+                "arguments": "{\"a\":1,\"b\":9}",
+                "name": "add"
+              },
+              "type": "function"
+            }
+          ]
+        },
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "created": 1787728880,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 219,
+      "prompt_tokens": 341,
+      "total_tokens": 560,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 7,
+        "engine_ttft_ms": 43,
+        "engine_ttlt_ms": 1879,
+        "pre_inference_ms": 250,
+        "service_tbt_ms": 9,
+        "service_ttft_ms": 423,
+        "service_ttlt_ms": 2528,
+        "total_duration_ms": 2295,
+        "user_visible_ttft_ms": 173
+      }
+    },
+    "prompt_filter_results": [
+      {
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        },
+        "prompt_index": 0
+      }
+    ]
+  },
+  {
+    "id": "chatcmpl-EH2EntumPfmH1KWBpMfr0C9oBpHe1",
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": null,
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [
+            {
+              "id": "call_RcciUpOkvaGH3V2PvmaJbVl1",
+              "function": {
+                "arguments": "{\"a\":10,\"b\":11}",
+                "name": "multiply"
+              },
+              "type": "function"
+            }
+          ]
+        },
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "created": 1787728885,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 379,
+      "total_tokens": 400,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 5,
+        "engine_ttft_ms": 46,
+        "engine_ttlt_ms": 148,
+        "pre_inference_ms": 248,
+        "service_tbt_ms": 5,
+        "service_ttft_ms": 450,
+        "service_ttlt_ms": 536,
+        "total_duration_ms": 303,
+        "user_visible_ttft_ms": 202
+      }
+    },
+    "prompt_filter_results": [
+      {
+        "content_filter_results": {},
+        "prompt_index": 0
+      }
+    ]
+  },
+  {
+    "id": "chatcmpl-EH2Eo7hB3T2Uh1dbH0uEcAtZbSXEJ",
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": null,
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [
+            {
+              "id": "call_1J16iHrgd1bAbpAYvUKuDbcv",
+              "function": {
+                "arguments": "{\"a\":110,\"b\":10}",
+                "name": "subtract"
+              },
+              "type": "function"
+            }
+          ]
+        },
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "created": 1787728886,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 417,
+      "total_tokens": 438,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 5,
+        "engine_ttft_ms": 53,
+        "engine_ttlt_ms": 157,
+        "pre_inference_ms": 292,
+        "service_tbt_ms": 5,
+        "service_ttft_ms": 560,
+        "service_ttlt_ms": 659,
+        "total_duration_ms": 377,
+        "user_visible_ttft_ms": 268
+      }
+    },
+    "prompt_filter_results": [
+      {
+        "content_filter_results": {},
+        "prompt_index": 0
+      }
+    ]
+  },
+  {
+    "id": "chatcmpl-EH2Ep9q28PqQ494RV6f9L9WME7kXQ",
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": null,
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [
+            {
+              "id": "call_AffXm8faxHD7QJgrpqttMvEh",
+              "function": {
+                "arguments": "{\"a\":100,\"b\":10}",
+                "name": "multiply"
+              },
+              "type": "function"
+            }
+          ]
+        },
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "created": 1787728887,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 455,
+      "total_tokens": 476,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 18,
+        "engine_ttft_ms": 104,
+        "engine_ttlt_ms": 492,
+        "pre_inference_ms": 234,
+        "service_tbt_ms": 19,
+        "service_ttft_ms": 469,
+        "service_ttlt_ms": 853,
+        "total_duration_ms": 628,
+        "user_visible_ttft_ms": 235
+      }
+    },
+    "prompt_filter_results": [
+      {
+        "content_filter_results": {},
+        "prompt_index": 0
+      }
+    ]
+  },
+  {
+    "id": "chatcmpl-EH2ErjjDQ7ciKOLdGijsKCuKGsv6t",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Result: 1000",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": [],
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null
+        },
+        "content_filter_results": {
+          "hate": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "self_harm": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "sexual": {
+            "filtered": false,
+            "severity": "safe"
+          },
+          "violence": {
+            "filtered": false,
+            "severity": "safe"
+          }
+        }
+      }
+    ],
+    "created": 1787728889,
+    "model": "gpt-5-2025-08-07",
+    "object": "chat.completion",
+    "metadata": null,
+    "moderation": null,
+    "service_tier": "default",
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 9,
+      "prompt_tokens": 494,
+      "total_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      },
+      "latency_checkpoint": {
+        "engine_tbt_ms": 9,
+        "engine_ttft_ms": 42,
+        "engine_ttlt_ms": 125,
+        "pre_inference_ms": 204,
+        "service_tbt_ms": 9,
+        "service_ttft_ms": 513,
+        "service_ttlt_ms": 590,
+        "total_duration_ms": 392,
+        "user_visible_ttft_ms": 309
+      }
+    },
+    "prompt_filter_results": [
+      {
+        "content_filter_results": {},
+        "prompt_index": 0
+      }
+    ]
+  }
+]
