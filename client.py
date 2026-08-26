@@ -142,4 +142,8 @@ async def main() -> None:
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    import uvicorn
+    from api import app  # imported here (not at top) to avoid a circular import,
+                          # since api.py imports invoke_agent from this module
+
+    uvicorn.run(app, host="0.0.0.0", port=8000)
